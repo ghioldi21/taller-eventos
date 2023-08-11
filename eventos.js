@@ -1,8 +1,8 @@
 
-const boton = document.getElementById("saludarButton");
+const boton2 = document.getElementById("saludarButton");
 document.addEventListener("DOMContentLoaded", function() {  
-  boton.removeAttribute('onclick');
-    boton.addEventListener("click", function() {
+  boton2.removeAttribute('onclick');
+    boton2.addEventListener("click", function() {
         alert("Hola! Soy el div");
     });
   });
